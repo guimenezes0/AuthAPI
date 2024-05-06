@@ -14,16 +14,6 @@ Meu projeto tem uma estrutura de diretórios bem organizada e fácil de entender
 
 Antes de tudo, certifique-se de ter o Node.js e npm instalados em seu ambiente. Depois de clonar o projeto, você pode instalar as dependências executando:
 
-```bash
-npm install
-
-🚀 Uso
-Para iniciar o servidor, execute:
-
-npm start
-
-E voilà! O servidor começará a ouvir na porta 3000.
-
 🌐 Rotas
 Nosso projeto define as seguintes rotas:
 
@@ -33,3 +23,11 @@ POST /users/login: Faz login de um usuário registrado.
 GET /users/me: Visualiza o perfil do usuário logado.
 POST /users/me/logout: Faz logout do usuário da aplicação.
 POST /users/me/logoutall: Faz logout do usuário em todos os dispositivos.
+
+```bash
+npm install
+
+🚀 Uso
+Para iniciar o servidor, execute:
+
+npm start
